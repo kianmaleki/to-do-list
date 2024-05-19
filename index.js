@@ -22,6 +22,7 @@ document.querySelector("#push").addEventListener("click", function () {
     for (var i = 0; i < tasks.length; i++) {
       tasks[i].addEventListener("click", function () {
         this.style.textDecoration = "line-through";
+        this.style.color = "red";
       });
     }
   }
