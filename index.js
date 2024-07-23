@@ -19,10 +19,17 @@ document.querySelector("#push").addEventListener("click", function () {
     }
 
     var tasks = document.querySelectorAll(".task span");
+    var click = false;
     for (var i = 0; i < tasks.length; i++) {
       tasks[i].addEventListener("click", function () {
-        this.style.textDecoration = "line-through";
-        this.style.color = "red";
+        click = !click;
+        if (click == true) {
+          this.style.textDecoration = "line-through";
+          this.style.color = "red";
+        } else {
+          this.style.textDecoration = "none";
+          this.style.color = "black";
+        }
       });
     }
   }
