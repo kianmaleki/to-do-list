@@ -40,12 +40,11 @@ body {
 
 #newtask input {
   width: 70%;
-  width: 70%;
-  height: 45px;
+  height: auto;
   font-family: "poppins", sans-serif;
-  font-size: 15px;
-  border: 3px solid #8052ec;
-  padding: 12px;
+  font-size: 1rem;
+  border: 2.5px solid #8052ec;
+  padding: 0.75rem;
   color: #111111;
   font-weight: 500;
   position: relative;
@@ -55,29 +54,30 @@ body {
 
 #newtask input:focus {
   outline: none;
-  border: 3px dashed #8052ec75;
+  border: 2.5px dashed #8052ec75;
 }
 
 #newtask button {
   position: relative;
   float: right;
   width: 20%;
-  height: 45px;
+  height: auto;
+  padding: 0.75rem;
   border-radius: 5px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #8052ec;
   border: none;
   color: #ffffff;
   cursor: pointer;
-  transition: all 0.5s;
-  border: 3px dashed #8052ec;
+  transition: all 0.25s;
+  border: 2.5px dashed #8052ec;
 }
 
 #newtask button:hover {
   background: none;
-  border: 3px dashed #8052ec;
+  border: 3px solid #8052ec75;
   color: #8052ec;
 }
 
