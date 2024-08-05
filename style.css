@@ -72,7 +72,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   transition: all 0.25s;
-  border: 2.5px dashed #8052ec;
+  border: 2.5px solid #8052ec;
 }
 
 #newtask button:hover {
