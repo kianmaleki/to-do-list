@@ -27,6 +27,12 @@ body {
   border-radius: 20px;
 }
 
+.title {
+  width: 100%;
+  text-align: center;
+  color: #8052ec;
+}
+
 #newtask {
   display: flex;
   justify-content: space-evenly;
